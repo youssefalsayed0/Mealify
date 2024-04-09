@@ -1,0 +1,197 @@
+@media screen and (min-width: 1400px) {
+    .container {
+        max-width: 1320px;
+    }
+}
+
+@media screen and (max-width: 1400px) {
+    .container {
+        max-width: 1140px;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .container {
+        max-width: 960px;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .container {
+        max-width: 720px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .container {
+        max-width: 540px;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .container {
+        padding-inline: 15px;
+    }
+}
+
+
+/* Navbar  */
+@media screen and (max-width: 1200px) {
+    .navbar .container ul {
+        display: none;
+    }
+
+    .navbar .container .icons .toogle {
+        display: inline-block;
+        margin-left: 25px;
+    }
+}
+
+/* landing */
+@media (max-width: 992px) {
+    .landing .container {
+        height: auto;
+        flex-direction: column-reverse;
+        text-align: center;
+        padding-top: 120px;
+    }
+
+    .landing .container .box,
+    .landing .container .image {
+        width: 100%;
+    }
+
+    .landing .container .box {
+        text-align: center;
+        margin-top: 30px;
+    }
+
+    .landing .container .box .btn-group {
+        flex-direction: column;
+        gap: 20px;
+    }
+}
+
+
+/* Chefs */
+@media screen and (max-width: 992px) {
+    .chefs .chefs-cards .card {
+        width: calc(calc(100% - 30px * 2) / 2);
+        ;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .chefs .chefs-cards .card {
+        width: 100%;
+    }
+}
+
+/* Gallery */
+@media screen and (max-width: 1400px) {
+    .gallery .gallery-photos {
+        height: 1000px;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .gallery .gallery-photos {
+        height: 845px;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .gallery .gallery-photos {
+        height: 1405px;
+    }
+
+    .gallery-photos picture {
+        width: calc(calc(100% - 20px) / 2);
+    }
+
+    .gallery .gallery-photos .pizza {
+        order: 1;
+    }
+
+    .gallery .gallery-photos .fried {
+        order: 6;
+    }
+
+    .gallery .gallery-photos .omelette {
+        order: 4;
+    }
+
+    .gallery .gallery-photos .kofta {
+        order: 7;
+    }
+
+    .gallery .gallery-photos .burger {
+        order: 2;
+    }
+
+    .gallery .gallery-photos .pizza-slices {
+        order: 3;
+    }
+
+    .gallery .gallery-photos .steak {
+        order: 5;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .gallery .gallery-photos {
+        height: auto;
+    }
+
+    .gallery .gallery-photos picture {
+        width: 100%;
+    }
+}
+
+/* Contact */
+@media screen and (max-width: 992px) {
+    .contact .input-group input {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .contact .details .box {
+        width: 100%;
+    }
+}
+
+/* Footer */
+
+@media screen and (max-width: 1200px) {
+
+    footer .container .about,
+    footer .container .contact-details {
+        width: calc(calc(100% - 20px) / 2);
+        order: 1;
+    }
+
+    footer .container .subscription {
+        width: 200%;
+        order: 2;
+    }
+}
+
+@media screen and (max-width: 768px) {
+
+    footer .container .about,
+    footer .container .contact-details {
+        width: 100%;
+        order: 0;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    footer .subscription .sunscription-group {
+        flex-direction: column;
+    }
+
+    footer .sunscription-group button {
+        padding: 12px 0;
+    }
+}
